@@ -1,0 +1,66 @@
+/* Universal selectors */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/*  UNORDER LIST  */
+ul{
+   list-style-type:none;
+}
+
+/*  HOVER  */
+a:hover{
+	    color:#34ebcc;
+}
+
+/* LIST ANCHOR  */
+li a{
+	 text-decoration:none;
+	 color:#48484a;
+	 font-family:verdana,sans-serif;
+}
+
+/*  LIST  */
+li{
+	display:inline-block;
+	padding:10px;
+}
+
+/*  CONTAINER  */
+.container{
+	       margin:auto;
+		   width:100%;
+		   border:3px solid #34ebcc;
+}
+
+/*  ROW  */
+.row{
+	 display:flex;
+     flex-wrap:wrap;
+	 align-items:baseline;
+	 justify-content:space-around;
+	 height:100px;
+     align-items:center;
+}
+
+/*  BOX2  */
+.box2{
+	  align-self:center;
+}
+
+/* BUTTON  */
+#button{
+	   background-color:#34ebcc;
+	   padding:10px;
+	   border:1px solid #34ebcc;
+}
+/*  BUTTON ID  */
+#button{
+	    color:white;
+}
+
+
+
+
